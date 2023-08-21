@@ -151,7 +151,7 @@ def initialize_wordembedding_matrix(name, vocab, cfg):
         if wordemb == 'glove':
             if cfg.config_name == 'cgqa-czsl':
                 wordemb_ = load_word_embeddings(
-                    f'{cfg.DATASET.root_dir}/../../glove/glove.6B.300d.txt', vocab)
+                    f'{cfg.DATASET.root_dir}/../glove/glove.6B.300d.txt', vocab)
             else:
                 wordemb_ = load_word_embeddings(
                     f'{cfg.DATASET.root_dir}/../glove/glove.6B.300d.txt', vocab)
