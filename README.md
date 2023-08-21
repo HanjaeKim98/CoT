@@ -43,5 +43,5 @@ Our code is based on the following excellent projects;
 * [nirat1606/OADis](https://github.com/nirat1606/OADis)
 * [lukemelas/PyTorch-Pretrained-ViT](https://github.com/lukemelas/PyTorch-Pretrained-ViT)
 
-## References
+## Citation
 This section will be updated after the final version is published.
