@@ -164,8 +164,6 @@ def initialize_wordembedding_matrix(name, vocab, cfg):
         elif wordemb == 'conceptnet':
             wordemb_ = load_word_embeddings(
                 f'{cfg.DATASET.root_dir}/../conceptnet/mit-states.txt', vocab)
-        elif wordemb == 'ft+w2v':
-            embeds1 = load
         if result is None:
             result = wordemb_
         else:
