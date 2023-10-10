@@ -44,4 +44,12 @@ Our code is based on the following excellent projects;
 * [lukemelas/PyTorch-Pretrained-ViT](https://github.com/lukemelas/PyTorch-Pretrained-ViT)
 
 ## Citation
-This section will be updated after the final version is published.
+```
+@inproceedings{kim2023hierarchical,
+  title={Hierarchical Visual Primitive Experts for Compositional Zero-Shot Learning},
+  author={Kim, Hanjae and Lee, Jiyoung and Park, Seongheon and Sohn, Kwanghoon},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5675--5685},
+  year={2023}
+}
+```
